@@ -18,5 +18,9 @@ namespace Tutorial_1
         {
             return values.Average();
         }
+        public static int CalculateMax(int[] values)
+        {
+            return values.Max();
+        }
     }
 }
