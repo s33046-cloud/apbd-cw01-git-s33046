@@ -25,9 +25,10 @@ namespace Tutorial_1
         public static int CalculateMin(int[] values)
         {
             if (values == null || values.Length == 0)
-                throw new ArgumentException("Array cannot be empty");
+                throw new ArgumentException("Values cannot be empty");
 
-            return values.Min();
+            int minValue = values.Min();
+            return minValue;
         }
     }
 }
