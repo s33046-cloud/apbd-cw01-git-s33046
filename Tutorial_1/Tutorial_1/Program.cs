@@ -17,6 +17,7 @@ class Program
         int sum = StatisticsHelper.Sum(numbers);
 
         Console.WriteLine("Sum: " + sum);
-        Console.WriteLine("Enter numbers now (main)");
+        Console.WriteLine("Enter numbers (main) / Please enter numbers (feature-conflict)");
+
     }
 }
