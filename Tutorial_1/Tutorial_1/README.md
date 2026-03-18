@@ -1,0 +1,1 @@
+﻿Project for Git exercises
