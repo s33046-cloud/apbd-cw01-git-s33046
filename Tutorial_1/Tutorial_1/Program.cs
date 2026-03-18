@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter numbers separated by comma:");
+        Console.WriteLine("Please enter numbers:");
 
         string input = Console.ReadLine();
 
