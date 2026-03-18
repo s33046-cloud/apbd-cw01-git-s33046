@@ -1,4 +1,6 @@
-﻿namespace Tutorial_1
+﻿using System.Linq;
+
+namespace Tutorial_1
 {
     public static class StatisticsHelper
     {
@@ -10,6 +12,11 @@
                 sum += v;
             }
             return sum;
+        }
+
+        public static double CalculateAverage(int[] values)
+        {
+            return values.Average();
         }
     }
 }
