@@ -1,5 +1,7 @@
 using System;
 using System.Linq;
+using Tutorial_1;
+
 class Program
 {
     static void Main(string[] args)
@@ -8,11 +10,12 @@ class Program
 
         string input = Console.ReadLine();
 
-        Console.WriteLine("You entered: " + input);
         int[] numbers = input.Split(',')
             .Select(int.Parse)
             .ToArray();
 
-        Console.WriteLine("Parsed " + numbers.Length + " numbers.");
+        int sum = StatisticsHelper.Sum(numbers);
+
+        Console.WriteLine("Sum: " + sum);
     }
 }
