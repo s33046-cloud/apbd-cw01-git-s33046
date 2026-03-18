@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-
+using System;
 namespace Tutorial_1
 {
     public static class StatisticsHelper
@@ -21,6 +21,10 @@ namespace Tutorial_1
         public static int CalculateMax(int[] values)
         {
             return values.Max();
+        }
+        public static int CalculateMin(int[] values)
+        {
+            return values.Min();
         }
     }
 }
